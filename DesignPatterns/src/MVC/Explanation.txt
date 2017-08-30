@@ -1,0 +1,6 @@
+Model - View - Controller is a tier based achitectural way of constructing software.
+
+Model layer contains all business logics and object definitions
+View layer contains visuals, and what is presented to the user
+Controller is the layer that brings info from model to view and vice versa
+

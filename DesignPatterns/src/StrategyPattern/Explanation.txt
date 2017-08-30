@@ -1,0 +1,5 @@
+Makes it possible to change an object, and the way it behaves, during runtime!
+
+Create a context where the constructor takes the strategy(interface), as a parameter.
+
+thus a class, implementing strategy, can be used for that class!

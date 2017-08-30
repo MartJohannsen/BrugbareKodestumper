@@ -1,0 +1,2 @@
+Hierarchical structure between objects.
+Both the CEO and the salesman are employees, but the salesman is under the CEO.

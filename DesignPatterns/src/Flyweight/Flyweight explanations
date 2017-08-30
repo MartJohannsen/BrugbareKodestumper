@@ -1,0 +1,2 @@
+Intrinsic : Constants that are stored in memory, is shareable
+Extrinsic : States that are not constant, therefore not stored in memory. These are not shareable.

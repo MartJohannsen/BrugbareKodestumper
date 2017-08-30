@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestPage for Exam</title>
+
+    <link rel = "stylesheet" type="text/css" href="CSS_Example.css">
+    <style type="text/css" media = "all">
+    </style>
+    <link type = "text/css" href = "CSS_Example.css" media = " all" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> // Her importerer vi jquery til vores javascript
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#div1").load("sampleTextFile.txt", function (responseTxt, statusTxt, xhr) {
+                    if(statusTxt == "success")
+                        alert("External content loaded successfully");
+                    if(statusTxt == "error")
+                        alert("Error:   " + xhr.status + ": " + xhr.statusText);
+                })
+            })
+            }
+        )
+    </script>
+</head>
+<body>
+    <h1> I AM A HEADER </h1>
+    <p> This is a paragraf! </p>
+    <div id="OverDiv">
+        I'm trapped inside a division!
+    </div>
+
+    <div id="UnderDiv">
+        I am beneath him!
+    </div>
+    <button class="actionButton" onclick="myFunction()">
+        Press for ACTION
+    </button>
+
+    <script>
+        function myFunction(){
+            alert("ACHTUNG ACHTUNG! ACTION IS HAPPENING!");
+        }
+    </script>
+
+    <div id="div1">
+        <h2>Let Jquery AJAX change this text</h2>
+    </div>
+
+    <div style="color: blue;">
+        This is inline CSS
+    </div>
+</body>
+</html>

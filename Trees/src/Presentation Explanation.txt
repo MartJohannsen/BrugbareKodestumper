@@ -1,0 +1,7 @@
+// A stepguide to the presentation
+
+1. Reveal what trees are, as a concept, what they're used for.
+
+2. Explanation of the simple tree. How is it structered? Object relation to each other? Draw on blackboard, what i looks like visually
+
+3. Explanation of what the binary search tree is, how is this different from the other? How do we traverse the objects? Sorted?

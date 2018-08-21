@@ -1,2 +1,3 @@
 # BrugbareKodestumper
-Om det er til eksamen, privat eller professionelt brug, er dette repo'et at uploade det i!
+Om det er til eksamen, privat eller professionelt brug.
+Det er skrevet i Java, i forbindelse med 3. semesters eksamen.
